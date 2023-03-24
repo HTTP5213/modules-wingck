@@ -1,2 +1,5 @@
-import { theShire, buckland } from '../public/my-script.js';
-export { theShire, statment } from '../public/my-script.js';
+import { theShire } from './my-script.js';
+
+import { buckland } from './my-script.js';
+
+export { theShire, statment } from './my-script.js';
