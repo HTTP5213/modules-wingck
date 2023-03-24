@@ -3,7 +3,6 @@ const HobbitSettlement = class {
 		this.name = name;
 		this.founding = founding;
 		this.founders = founders;
-		this.originalSettlement = { name: 'Eriador', details: eriadorDetails };
 	}
 };
 
