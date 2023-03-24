@@ -1,12 +1,5 @@
-import { theShire, buckland } from './my-script.js';
+import { theShire, buckland } from  './my-script.js';
 
-export var theShire;
+const statement = () => `${theShire.name} was founded ${buckland.founding - theShire.founding} years before ${buckland.name}.`;
 
-export var HobbitSettlement = class {
-	constructor(name, founding, founders) {
-		this.name = name;
-		this.founding = founding;
-		this.founders = founders;
-		this.originalSettlement = { name: 'Eriador', details: eriadorDetails };
-	}
-};
+export { theShire , statement}; 
