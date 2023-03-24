@@ -1,0 +1,1 @@
+export {theShire, buckland, HobbitSettlement} from 'my-script.js';
