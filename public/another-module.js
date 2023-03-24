@@ -10,4 +10,4 @@ const HobbitSettlement = class {
 const theShire = new HobbitSettlement('The Shire', 1601, ['Marcho', 'Blanco']);
 const buckland = new HobbitSettlement('Buckland', 2340, 'Gorhendad Oldbuck');
 
-export { theShire, buckland, HabbitSettlement };
+export { theShire, buckland, HobbitSettlement };
