@@ -16,3 +16,5 @@ var bree = new HobbitSettlement('Bree', 473, 'Atanatári who did not reach Beler
 var buckland = new HobbitSettlement('Buckland', 2340, 'Gorhendad Oldbuck');
 
 var statement = () => `${theShire.name} was founded ${buckland.founding - theShire.founding} years before ${buckland.name}.`;
+
+export { theShire, buckland };
